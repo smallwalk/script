@@ -20,3 +20,4 @@ MyDB.o: MyDB.cpp m_include.h MyDB.h
 
 clean:
 	-rm main.o MyDB.o
+
