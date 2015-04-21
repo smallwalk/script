@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/guochao/Script/cpp/c_make/c2/include/Test1.h
+
+/Users/guochao/Script/cpp/c_make/c2/include/cache.h
+
+/Users/guochao/Script/cpp/c_make/c2/include/common.h
+stdio.h
+-
+
+/Users/guochao/Script/cpp/c_make/c2/src/Test1.cpp
+common.h
+/Users/guochao/Script/cpp/c_make/c2/src/common.h
+Test1.h
+/Users/guochao/Script/cpp/c_make/c2/src/Test1.h
+
+/Users/guochao/Script/cpp/c_make/c2/src/cache.cpp
+common.h
+/Users/guochao/Script/cpp/c_make/c2/src/common.h
+cache.h
+/Users/guochao/Script/cpp/c_make/c2/src/cache.h
+

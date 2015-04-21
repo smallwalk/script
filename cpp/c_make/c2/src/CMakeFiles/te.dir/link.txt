@@ -1,0 +1,2 @@
+/usr/bin/ar cq libte.a  CMakeFiles/te.dir/cache.o CMakeFiles/te.dir/Test1.o
+/usr/bin/ranlib libte.a
