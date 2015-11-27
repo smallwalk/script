@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/MLS/script/cpp/data_struct/link/include/slistNode.h
+string
+-
+iostream
+-
+student.h
+/Users/MLS/script/cpp/data_struct/link/include/student.h
+
+/Users/MLS/script/cpp/data_struct/link/include/student.h
+string
+-
+
+/Users/MLS/script/cpp/data_struct/link/src/slistNode.cpp
+slistNode.h
+/Users/MLS/script/cpp/data_struct/link/src/slistNode.h
+iostream
+-
+

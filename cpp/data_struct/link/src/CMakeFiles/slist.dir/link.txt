@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar cq libslist.a  CMakeFiles/slist.dir/slistNode.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libslist.a
