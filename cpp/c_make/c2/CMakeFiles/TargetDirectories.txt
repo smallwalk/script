@@ -1,1 +1,0 @@
-/Users/guochao/Script/cpp/c_make/c2/CMakeFiles/main.dir
