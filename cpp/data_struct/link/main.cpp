@@ -16,8 +16,29 @@ int main()
     myslist<student> slist;
     for (int i=0; i<s.size(); i++) {
         slist.Add(s[i]);
-        cout << s[i].name << endl;
     }
+
+    cout << "链表遍历" << endl;
+    slist.traversal();
+
+    student s1 = {
+        "王楠", 27, "女", 165, 65
+    };
+
+    student s2 = {
+        "王晓楠", 27, "女", 165, 65
+    };
+
+    slistNode<student>* p_stu1 = slist.find(s2);
+    slist.Insert(s1, p_stu1);
+
+    cout << "链表遍历" << endl;
+    slist.traversal();
+
+    slist.InsertHead(s2);
+    cout << "链表遍历" << endl;
+    slist.traversal();
+
     return 0;
 }
 
