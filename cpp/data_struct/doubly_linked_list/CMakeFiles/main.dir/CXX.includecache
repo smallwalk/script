@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/MLS/script/cpp/data_struct/doubly_linked_list/main.cpp
+iostream
+-
+student.h
+/Users/MLS/script/cpp/data_struct/doubly_linked_list/student.h
+dlist.h
+/Users/MLS/script/cpp/data_struct/doubly_linked_list/dlist.h
+
+/Users/MLS/script/cpp/data_struct/doubly_linked_list/student.cpp
+student.h
+/Users/MLS/script/cpp/data_struct/doubly_linked_list/student.h
+
+include/dlist.h
+
+include/student.h
+vector
+-
+string
+-
+fstream
+-
+
