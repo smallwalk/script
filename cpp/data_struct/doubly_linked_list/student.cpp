@@ -19,15 +19,18 @@ std::vector<student> student_assign(string file_path)
                 continue;
             }
             if (index == 0) {
-                stu.name = s[i];
+                stu.id = s[i];
             }
             else if (index == 1) {
-                stu.age = stoi(s[i]);
+                stu.name = s[i];
             }
             else if (index == 2) {
-                stu.gender = s[i];
+                stu.age = stoi(s[i]);
             }
             else if (index == 3) {
+                stu.gender = s[i];
+            }
+            else if (index == 4) {
                 stu.height = stoi(s[i]);
             }
             else {
