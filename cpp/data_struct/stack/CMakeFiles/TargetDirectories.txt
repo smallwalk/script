@@ -1,0 +1,1 @@
+/Users/MLS/script/cpp/data_struct/stack/CMakeFiles/stack.dir

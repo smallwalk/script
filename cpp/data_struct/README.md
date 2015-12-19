@@ -2,4 +2,6 @@
 
 - **单链表** link
 
+- **双链表** doubly\_linked\_list
 
+- **栈** stack
